@@ -1,43 +1,14 @@
-numero = 100
-print (numero)
-
-
-nome = 'felipe'
-sobrenome = 'santos'
-print(nome , sobrenome , 'seja bem vindo')
-nome = 'maria'
-
-# concatenar - juntar
-print(nome , sobrenome , 'seja bem vindo')
-
-nome1 = 'carla'
+nome = 'Carla'
 idade = 25
-cidade = 'guarulhos'
+cidade  =  'Guarulhos'
 estado = 'SP'
-curso = 'python60'
-print(50*'-')
+curso = 'Python60'
+casada_ = True 
 
-print('nome:', nome1)
-print('idade:', idade)
-print('cidade:', cidade)
-print('estado:', estado)
-print('curso:', curso)
-print(50*'-')
-
-print(100 + 100)
-print(100 - 50)
-print(100 * 5)
-print(10 / 100)
-print(50*'-')
-
-dado = bool(nome)
-print(dado)
-print(50*'-')
 
 # funções casting -  str | float |  int |  bool
 # altera o tipo de dado
 
-casado = True
 dado = bool(nome)
 print(dado)
 
@@ -46,5 +17,18 @@ dado_3 =  float(idade)
 print(dado_3)
 
 
-dado_4 = int(casado)
+dado_4 = int(casada_)
 print(dado_4)
+
+
+print(100 +  200)
+print(10 - 100)
+print(10 * 100)
+print(10 / 100)
+
+
+print('nome:', nome)
+print('idade:', idade)
+print('cidade:', cidade)
+print('estado:', estado)
+print('curso:', curso)
